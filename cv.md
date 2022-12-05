@@ -1,3 +1,4 @@
+![](https://pp.userapi.com/c846018/v846018569/8cf2a/TE6yiSZbto8.jpg)
 ## PETR KANAPELKA 
 # Contact me
 e-mail:
@@ -23,3 +24,5 @@ let findPostById = (id, postsArray) => {
     return postsArray.find((indexofArray) => indexofArray.postId === id)
 }
 ```
+# My projects
++ <https://github.com/petrkanapelka/petrkanapelka.github.io>
