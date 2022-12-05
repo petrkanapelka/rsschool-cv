@@ -19,4 +19,7 @@ const posts = [
     { postId: 5131, commentsQuantity: 13 },
     { postId: 6134, commentsQuantity: 2 },
 ]
+let findPostById = (id, postsArray) => {
+    return postsArray.find((indexofArray) => indexofArray.postId === id)
+}
 ```
