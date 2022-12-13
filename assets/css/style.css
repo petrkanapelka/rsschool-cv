@@ -1,0 +1,134 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(0, 0, 20);
+    
+}
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin: 0 auto;
+
+}
+
+.nav-item {
+    list-style-type:none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+
+.profile {
+    padding: 20px 0;
+    min-height: 250px;
+    background: url("../../assets/img/bg_storm.jpg") center center/cover no-repeat;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    
+}
+
+.profile-img {
+    display: block;
+    height: 220px;
+    width: 220px;
+    border-radius: 100%;
+}
+
+
+.profile-title {
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+}
+
+.profile-summary-divider {
+    margin-top: 5px;
+    height: 2px;
+    width: 100%;
+    background-color:#ffffff;
+}
+
+.profile-subtitle {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;s
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.courses {
+    padding: 20px 0;
+}
+
+.courses-title {
+    color: #222;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.courses-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.courses-img {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+
+.courses-subtitle {
+    margin-top: 10px;
+    color: #1ca8c3;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.courses-list {
+    margin-top: 15px;
+}
+
+.courses-item {
+    margin-bottom: 5px;
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.courses-link {
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
