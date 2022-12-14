@@ -1,18 +1,86 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="icon" href="assets/icons/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-  <script src="js/scripts.js"></script>
+  <header class="header">
+    <nav>
+      <div class="container">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="#">profile</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">code</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">languages</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">contacts</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+<div class="main">
+  <section class="profile">
+    <div class="container">
+      <div class="profile-wrapper">
+
+        <div class="profile-image">
+          <img class="profile-img" src="assets/img/my_photo.jpg" alt="profile_photo">
+        </div>        
+        
+        <div class="profile-summary">
+          <h1 class="profile-title">Petr Kanapelka</h1>
+          <div class="profile-summary-divider"></div>
+          <h2 class="profile-subtitle">Student of RS School</h2>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="courses">
+    <div class="container">
+      <h2 class="courses-title">Courses</h2>
+      <div class="courses-wrapper">
+        <div class="courses-object">
+          <img class="courses-img" src="assets/icons/javascript.svg" alt="js-logo">
+          <h3 class="courses-subtitle">JavaScript</h3>
+          <ul class="courses-list">
+            <li class="courses-item">Educational courses JavaScript by Bogdan Stashchuk</li>
+            <li class="courses-item">The JavaScript language by Ilya Kantor</li>
+            <li class="courses-item">Sololearn</li>
+          </ul>
+        </div>
+        <div class="courses_object">
+          <img class="courses-img" src="assets/icons/html5.svg" alt="html-logo">
+          <h3 class="courses-subtitle">HTML</h3>
+          <ul class="courses-list">
+            <li class="courses-item">Educational courses Web-developer by Ivan Petrichenko</li>
+            <li class="courses-item"> <a class="courses-link" href="https://code-basics.com/languages/html">HTML: Perfect for Beginners</a></li>
+          </ul>
+        </div>
+        <div class="courses_object">
+          <img class="courses-img" src="assets/icons/css-3.svg" alt="css-logo">
+          <h3 class="courses-subtitle">CSS</h3>
+          <ul class="courses-list">
+            <li class="courses-item">Educational courses Web-developer by Ivan Petrichenko</li>
+            <li class="courses-item"><a class="courses-link" href="https://code-basics.com/languages/css">CSS: Free Online Learning for Beginners </a></li>
+          </ul>
+        </div>
+      </div>
+    </div>    
+  </section>
+
+</div>
+
+  
 </body>
 </html>
