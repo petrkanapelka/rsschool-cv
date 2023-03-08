@@ -283,13 +283,14 @@
 }
 
 .contact-item:hover {
+    text-decoration: underline;
     color: #202020;
-    font-weight: 500;
+    font-weight: 300;
 }
 .contact-link:hover {
     color: #202020;
-    font-weight: 500;
-
+    font-weight: 300;
+    text-decoration: underline;
 }
 
 footer {
