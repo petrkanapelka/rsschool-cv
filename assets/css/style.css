@@ -35,7 +35,6 @@
 }
 
 .nav-link:hover {
-    font-size: 16px;
     text-decoration: underline;
     color: #ffffff;
 }
