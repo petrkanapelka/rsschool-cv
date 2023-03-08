@@ -13,6 +13,7 @@ discord:
 # Experience
 + Educational courses Web-developer by Ivan Petrichenko
 + Educational courses JavaScript by Bogdan Stashchuk
++ RS School(JavaScript/Front-end. Stage 0)
     _Code example:_
 ```
 const posts = [
@@ -25,4 +26,4 @@ let findPostById = (id, postsArray) => {
 }
 ```
 # My projects
-+ <https://github.com/petrkanapelka/petrkanapelka.github.io>
++ <https://rolling-scopes-school.github.io/petrkanapelka-JSFEPRESCHOOL2022Q4/momentum/>
